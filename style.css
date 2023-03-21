@@ -13,10 +13,7 @@ body {
     src: url(fontes/Passion_One/PassionOne-Regular.ttf);
 }    
 
-@font-face {
-    font-family: 'sriracha';
-    src: url(fontes/sriracha/Sriracha-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 header {
     background-size: auto;
@@ -46,9 +43,10 @@ a:hover {
 }
 
 main.container {
-    font-family: 'sriracha';
+    font-family: 'Sriracha', cursive;
     font-size: 3.7vw;
     padding-bottom: 40px;
+    font-style: italic;
 }
 
 p {
